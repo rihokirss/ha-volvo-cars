@@ -42,20 +42,20 @@ async def _async_get_start_engine_data(coordinator: VolvoCarsDataCoordinator) ->
 
 # pylint: disable=unexpected-keyword-arg
 BUTTONS: tuple[VolvoCarsButtonDescription, ...] = (
-    VolvoCarsButtonDescription(
-        key="climatization_start",
-        translation_key="climatization_start",
-        api_command="climatization-start",
-        required_command_key="CLIMATIZATION_START",
-        icon="mdi:air-conditioner",
-    ),
-    VolvoCarsButtonDescription(
-        key="climatization_stop",
-        translation_key="climatization_stop",
-        api_command="climatization-stop",
-        required_command_key="CLIMATIZATION_STOP",
-        icon="mdi:air-conditioner",
-    ),
+    #VolvoCarsButtonDescription(
+    #    key="climatization_start",
+    #    translation_key="climatization_start",
+    #    api_command="climatization-start",
+    #    required_command_key="CLIMATIZATION_START",
+    #    icon="mdi:air-conditioner",
+    #),
+    #VolvoCarsButtonDescription(
+    #    key="climatization_stop",
+    #    translation_key="climatization_stop",
+    #    api_command="climatization-stop",
+    #    required_command_key="CLIMATIZATION_STOP",
+    #    icon="mdi:air-conditioner",
+    #),
     VolvoCarsButtonDescription(
         key="engine_start",
         translation_key="engine_start",
