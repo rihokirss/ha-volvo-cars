@@ -11,6 +11,7 @@ PLATFORMS: list = [
     Platform.LOCK,
     Platform.NUMBER,
     Platform.SENSOR,
+    Platform.SWITCH,
 ]
 
 ATTR_API_TIMESTAMP = "api_timestamp"
